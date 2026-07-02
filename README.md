@@ -104,7 +104,7 @@ cp .env.example .env.local
 Si no existe `.env.example`, crear el archivo manualmente:
 
 ```bash
-echo 'DATABASE_URL=postgresql://postgres:postgres@localhost:5432/stressdb' > .env.local
+echo 'DATABASE_URL=postgresql://stress_user:stress_pass@localhost:5432/stress_db' > .env.local
 ```
 
 ### 5. Levantar la base de datos con Docker
